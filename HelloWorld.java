@@ -1,4 +1,4 @@
-/* This is a simple Java program. 
+/* This is not a simple Java program. 
 FileName : "HelloWorld.java". */
 class HelloWorld 
 { 
