@@ -6,6 +6,7 @@ pipeline {
 
             steps {
                 echo " Welcome to Compile Stage"
+                git 'https://github.com/UNoorul/JavaProject/blob/master/Jenkinsfile'
                 sleep 3
             }
         }
