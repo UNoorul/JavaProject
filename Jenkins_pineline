@@ -1,0 +1,13 @@
+node {
+
+   stage('Preparation') { 
+    sleep 3
+   }
+   stage('Build') {
+       sleep 3
+      
+   }
+   stage('Results') {
+      sleep 3
+   }
+}
