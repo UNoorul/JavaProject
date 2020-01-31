@@ -10,11 +10,7 @@ pipeline {
                 sleep 3
             }
             
-            steps {
-                echo " Welcome to Compile 2 Stage"
-      
-                sleep 3
-            }
+
         }
 
         stage ('Testing Stage') {
