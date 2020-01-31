@@ -5,7 +5,13 @@ pipeline {
         stage ('Compile Stage') {
 
             steps {
-                echo " Welcome to Compile Stage"
+                echo " Welcome to Compile 1 Stage"
+      
+                sleep 3
+            }
+            
+            steps {
+                echo " Welcome to Compile 2 Stage"
       
                 sleep 3
             }
