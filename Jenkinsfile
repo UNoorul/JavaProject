@@ -2,21 +2,9 @@ pipeline {
   agent any
   stages {
     stage('Compile Stage') {
-      parallel {
-        stage('Compile Stage') {
-          steps {
-            echo ' Welcome to Compile Stage'
-            sleep 3
-          }
-        }
-
-        stage('MyBlue') {
-          steps {
-            echo 'Compile New stage'
-            git(url: 'https://github.com/UNoorul/JavaProject', branch: 'master ')
-          }
-        }
-
+      steps {
+        echo ' Welcome to Compile Stage'
+        sleep 3
       }
     }
 
